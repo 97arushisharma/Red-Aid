@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/bbbb3"
+    android:weightSum="1">
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkedButton="1" >
+    <RadioButton
+        android:text="A+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A_positive"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="O+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/O_positive"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="B+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/B_positive"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="AB+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AB_positive"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="A-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/A_negative"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="O-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/O_negative"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="B-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/B_negative"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:text="AB-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AB_negative"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"/>
+</RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Contact to donors"
+        android:id="@+id/proceed"
+        android:background="#D50000"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:textColor="#ffffff" />
+
+
+
+
+</LinearLayout>
+</ScrollView>
