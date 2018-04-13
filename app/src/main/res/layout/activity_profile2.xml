@@ -8,7 +8,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#000000"
-    tools:context="com.example.charul.webservicedemo.ProfileActivity"
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.ProfileActivity"
     android:id="@+id/drawerLayout">
 
     <!-- The main content view where fragments are loaded -->

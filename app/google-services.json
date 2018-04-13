@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "23010083821",
-    "firebase_url": "https://red-aid.firebaseio.com",
-    "project_id": "red-aid",
-    "storage_bucket": "red-aid.appspot.com"
+    "project_number": "739406404701",
+    "firebase_url": "https://red-aid-598b1.firebaseio.com",
+    "project_id": "red-aid-598b1",
+    "storage_bucket": "red-aid-598b1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:23010083821:android:c09564d5008b870b",
+        "mobilesdk_app_id": "1:739406404701:android:984ada4b93d5151b",
         "android_client_info": {
-          "package_name": "com.example.charul.webservicedemo"
+          "package_name": "com.DIC.RedAid.Application"
         }
       },
       "oauth_client": [
         {
-          "client_id": "23010083821-0udv40b7jopldbgn2t943g48l391sfa3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.charul.webservicedemo",
-            "certificate_hash": "dd599b4f306387864d3b02081d59058f20e90328"
-          }
-        },
-        {
-          "client_id": "23010083821-r7gurpeeqosqc9aj3ji29fp5v6o2tnn3.apps.googleusercontent.com",
+          "client_id": "739406404701-5l2vdblmcp3gm9moeap7mg4iajc2gid6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXEk8hz7ouCu4Rvi4OM8nuW3nxyxBzzM4"
+          "current_key": "AIzaSyCSwISHsuAAFoenLgBfBrp56FHcv5AxzMY"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "23010083821-r7gurpeeqosqc9aj3ji29fp5v6o2tnn3.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

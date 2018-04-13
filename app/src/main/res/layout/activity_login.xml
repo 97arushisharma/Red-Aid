@@ -14,7 +14,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="@drawable/bbbb3"
-    tools:context="com.example.charul.webservicedemo.LoginActivity">
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.LoginActivity">
 
 
         <TextView

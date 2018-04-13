@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.charul.webservicedemo.details">
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.details">
 
 
 <LinearLayout
@@ -32,7 +32,7 @@
         android:layout_height="fill_parent"
 
         android:layout_marginTop="40dp"
-        android:hint="Your Name"
+        android:hint="Your Name ( Optional )"
         android:inputType="textPersonName"
         android:layout_width="fill_parent">
     </EditText>
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
-        android:hint="Your address"/>
+        android:hint="Your locality"/>
 
     <EditText
         android:id="@+id/height"

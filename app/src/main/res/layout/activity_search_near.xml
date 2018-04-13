@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.charul.webservicedemo.search_near"
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.search_near"
     android:orientation="vertical">
 
     <!-- Editext for Search -->

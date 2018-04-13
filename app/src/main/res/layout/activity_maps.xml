@@ -11,7 +11,7 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="385dp"
     android:layout_height="match_parent"
-    tools:context="com.example.charul.webservicedemo.MapsActivity" />
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.MapsActivity" />
 
     <Button
         android:layout_width="wrap_content"

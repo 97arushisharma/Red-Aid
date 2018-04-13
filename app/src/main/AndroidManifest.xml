@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.charul.webservicedemo">
+    package="com.DIC.RedAid.Application">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,6 +11,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +25,7 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name=".splashscreen"
+            android:name="com.DIC.RedAid.Application.splashscreen"
             android:label="@string/title_activity_start"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -34,20 +36,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-            <uses-permission android:name="android.permission.INTERNET" />
+
         </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC0xVFAsiVXoI8ujE8doMwY5ONNU05losc" />
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivity1" />
-        <activity android:name=".BloodGroup" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.DIC.RedAid.Application.MainActivity" />
+        <activity android:name="com.DIC.RedAid.Application.MainActivity1" />
+        <activity android:name="com.DIC.RedAid.Application.BloodGroup" />
+        <activity android:name="com.DIC.RedAid.Application.LoginActivity" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.DIC.RedAid.Application.ProfileActivity"
             android:label="My Profile" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -80,20 +81,20 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".Profile_map"
+            android:name="com.DIC.RedAid.Application.Profile_map"
             android:label="@string/title_activity_profile_map" />
-        <activity android:name=".forgot_activity" />
-        <activity android:name=".sms" />
-        <activity android:name=".details" />
-        <activity android:name=".MapsActivity" />
-        <activity android:name=".DisplayInfo" />
-        <activity android:name=".ChangePassword" />
-        <activity android:name=".data" />
-        <activity android:name=".need_loc" />
-        <activity android:name=".profilego" />
-        <activity android:name=".fbg" />
-        <activity android:name=".aadhar" />
-        <activity android:name=".search_near"></activity>
+        <activity android:name="com.DIC.RedAid.Application.forgot_activity" />
+        <activity android:name="com.DIC.RedAid.Application.sms" />
+        <activity android:name="com.DIC.RedAid.Application.details" />
+        <activity android:name="com.DIC.RedAid.Application.MapsActivity" />
+        <activity android:name="com.DIC.RedAid.Application.DisplayInfo" />
+        <activity android:name="com.DIC.RedAid.Application.ChangePassword" />
+        <activity android:name="com.DIC.RedAid.Application.data" />
+        <activity android:name="com.DIC.RedAid.Application.need_loc" />
+        <activity android:name="com.DIC.RedAid.Application.profilego" />
+        <activity android:name="com.DIC.RedAid.Application.fbg" />
+        <activity android:name="com.DIC.RedAid.Application.aadhar" />
+        <activity android:name="com.DIC.RedAid.Application.search_near"></activity>
     </application>
 
 </manifest>

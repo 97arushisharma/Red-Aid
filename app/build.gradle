@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.example.charul.webservicedemo"
+        applicationId "com.DIC.RedAid.Application"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

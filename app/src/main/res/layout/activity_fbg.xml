@@ -13,7 +13,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/bbbb3"
-    tools:context="com.example.charul.webservicedemo.fbg">
+    tools:context="com.DIC.RedAid.Application.DIC.App.RedAid.Application.fbg">
 
     <TextView
         android:layout_width="wrap_content"
