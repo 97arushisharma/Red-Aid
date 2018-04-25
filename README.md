@@ -1,6 +1,9 @@
 # Red_Aid
 Blood Donation Android Application (Summer Internship 2017 Project)
 
+![App wallpaper](wallapp.png)
+Format: ![Alt Text](image)
+
 * The application is based on providing the facility of blood in urgency. It contains two
   sections:
   * Donate
