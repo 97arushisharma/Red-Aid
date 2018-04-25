@@ -25,7 +25,7 @@ public class splashscreen extends AppCompatActivity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(splashscreen.this, MainActivity.class);
+                Intent mainIntent = new Intent(splashscreen.this, BloodOrgan.class);
                 splashscreen.this.startActivity(mainIntent);
                 splashscreen.this.finish();
             }
